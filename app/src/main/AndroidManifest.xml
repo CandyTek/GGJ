@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ruoyu.pigroad.myapplication">
-    //地图SDK（包含其搜索功能）需要的基础权限
+<!--     //地图SDK（包含其搜索功能）需要的基础权限 -->
     <!--允许程序打开网络套接字-->
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -107,7 +107,7 @@
         </activity>
         <activity android:name=".Ui.PayFalseActivity"></activity>
         <activity android:name=".Ui.PointShopActivity"></activity>
-        //注册USB打印广播
+<!--         //注册USB打印广播 -->
         <receiver android:name="fangpai.cloudabull.com.usblibrary.usb.MyUSBPrinter$UsbDeviceBroadcastReceiver">
             <intent-filter>
                 <action android:name="com.usb.printer.USB_PERMISSION" />
